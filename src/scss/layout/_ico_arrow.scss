@@ -1,0 +1,24 @@
+.ico{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    
+}
+
+.ico_scroll {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $background-white;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+   
+}
+
+.ico_arrow {
+    width: 20.6px;
+    height: 24px;
+}

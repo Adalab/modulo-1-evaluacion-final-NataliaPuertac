@@ -1,2 +1,35 @@
 .footer {
+    background-color: $background-color-footer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 65px 15px 36px 13px;
+    gap: 30px;
+
+
+    &_nav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    &_link{
+        font-family: $foont-main-text;
+        color:$background-white;
+        font-size: 16px;
+        line-height: 30px;
+        text-decoration: none;
+    }   
+
+    &_copy{
+        font-family: $foont-main-text;
+        color: $background-white;
+        font-size: 14px;
+        line-height: 30px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        }
 }

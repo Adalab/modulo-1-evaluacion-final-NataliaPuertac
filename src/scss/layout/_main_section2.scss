@@ -1,6 +1,6 @@
 .section2{
     background-color: $background-color-main;
-    padding: 30px 15px 0 15px;
+    padding: 30px 15px 50px 15px;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
@@ -10,7 +10,7 @@
         font-family: $font-main-title;
         font-size: 20px;
         line-height: 30px;
-        color:black;
+        color:$color-text-black;
         display: flex;
         text-align: center;
         justify-content: center;
@@ -33,14 +33,36 @@
         text-align: center;
     }
 
+    &_div{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
     &_main_botton2{
         font-family: $foont-main-text;
         font-size: 20px;
-        color: white;
-        background-color: #f26002;
+        color: $background-white;
+        background-color: $background-orange;
         border-radius: 22.5px;
         width: 184px;
         height: 45px;
         border: none;
     }
-    }
+}
+
+.main_scroll{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    background-color: $background-white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_ico_arrow{
+    width: 20.6px;
+    height: 24px;
+}

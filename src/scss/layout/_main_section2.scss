@@ -1,0 +1,46 @@
+.section2{
+    background-color: $background-color-main;
+    padding: 30px 15px 0 15px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    gap: 40px;
+
+    &_title{
+        font-family: $font-main-title;
+        font-size: 20px;
+        line-height: 30px;
+        color:black;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        font-weight: bold;
+    }
+
+    &_title2{
+        font-family: $font-main-title;
+        font-size: 18px;
+        line-height: 30px;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    &_text{
+        font-family: $foont-main-text;
+        font-size: 18px;
+        line-height: 30px;
+        text-align: center;
+    }
+
+    &_main_botton2{
+        font-family: $foont-main-text;
+        font-size: 20px;
+        color: white;
+        background-color: #f26002;
+        border-radius: 22.5px;
+        width: 184px;
+        height: 45px;
+        border: none;
+    }
+    }

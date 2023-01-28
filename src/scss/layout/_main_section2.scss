@@ -6,6 +6,16 @@
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     gap: 40px;
 
+        @media (min-width: 768px) {
+           grid-template-columns: 1fr 1fr 1fr;
+           grid-template-rows: 1fr 1fr 1fr;
+           padding: 49px 29px;
+        }
+
+        @media (min-width:1200px) {
+            padding: 48px 81.2px 66px 80px;
+        }
+
     &_title{
         font-family: $font-main-title;
         font-size: 20px;
@@ -16,6 +26,12 @@
         justify-content: center;
         align-items: center;
         font-weight: bold;
+
+            @media (min-width: 768px){
+                font-size: 32px;
+                line-height: 45px;
+                grid-column: 3 span;
+            }
     }
 
     &_title2{
@@ -24,6 +40,10 @@
         line-height: 30px;
         font-weight: bold;
         text-align: center;
+
+            @media (min-width: 768px) {
+                font-size: 24px;
+            }
     }
 
     &_text{
@@ -31,6 +51,11 @@
         font-size: 18px;
         line-height: 30px;
         text-align: center;
+
+            @media (min-width: 768px) {
+                    font-size: 20px;
+                    padding-top: 15px;
+                }
     }
 
     &_div{
@@ -38,12 +63,20 @@
         text-align: center;
         justify-content: center;
         align-items: center;
+
+        @media (min-width: 768px) {
+            grid-column: 3 span;
+        }
     }
+
     &_main_botton2{
         font-family: $foont-main-text;
         font-size: 20px;
         color: $background-white;
         background-color: $background-orange;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         border-radius: 22.5px;
         width: 184px;
         height: 45px;

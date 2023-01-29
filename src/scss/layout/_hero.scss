@@ -10,7 +10,7 @@
 
     &_title{
         font-family: $font-main-title;
-        color: $background-white;
+        color: $white;
         text-align: center;
         text-transform: uppercase;
         font-weight: bold;
@@ -29,7 +29,7 @@
 
     &_paragraph{
         font-family: $foont-main-text;
-        color: $background-white;
+        color: $white;
         font-size: 1rem;
         width: 243.3px;
         height: 16px;
@@ -62,7 +62,7 @@
     }
     
     &_image_scroll{
-        background-color: $background-white;
+        background-color: $white;
         width: 16.8px;
         height: 9.3px;
         padding: 14.3px 10.1px 12.2px 11px;

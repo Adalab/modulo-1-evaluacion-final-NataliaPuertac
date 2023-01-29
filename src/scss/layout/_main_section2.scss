@@ -10,6 +10,7 @@
            grid-template-columns: 1fr 1fr 1fr;
            grid-template-rows: 1fr 1fr 1fr;
            padding: 49px 29px;
+           gap: 20px;
         }
 
         @media (min-width:1200px){
@@ -28,8 +29,8 @@
         font-weight: bold;
 
             @media (min-width: 768px){
-                font-size: 32px;
-                line-height: 45px;
+                font-size: 1.75rem;
+                line-height: 1.61;
                 grid-column: 3 span;
             }
     }
@@ -72,8 +73,8 @@
     &_main_botton2{
         font-family: $foont-main-text;
         font-size: 1.25rem;
-        color: $background-white;
-        background-color: $background-orange;
+        color: $white;
+        background-color: $orange;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -84,6 +85,11 @@
 
         &:hover{
             transform: scale(1.1);
+            cursor: pointer;
+            border: solid 2px $orange;
+            color: $orange;
+            background-color: $white;
+            font-weight: bold;
         }
     }
 }

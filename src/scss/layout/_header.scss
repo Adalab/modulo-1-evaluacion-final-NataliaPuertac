@@ -1,9 +1,9 @@
-.header {
+.header{
     position: fixed;
     z-index: 1;
     top: 0;
 
-    &_nav {
+    &_nav{
         background-color: $background-orange;
         width: 37px;
         height: 34px;
@@ -12,29 +12,29 @@
         align-items: center;
         justify-content: center;
     
-        @media (min-width:768px) {
-                width: 41.6px;
-                height: 44px
-            }
-    
-        @media (min-width:1200px) {
-                width: 45.1px;
-                height: 44.9px;
-            }
+        @media (min-width:768px){
+            width: 41.6px;
+            height: 44px;
         }
     
-    &_nav_icon {
+        @media (min-width:1200px){
+            width: 45.1px;
+            height: 44.9px;
+        }
+    }
+    
+    &_nav_icon{
         width: 15px;
         height: 13px;
     
-        @media (min-width:768px) {
-                width: 15.1px;
-                height: 14px;
-            }
+        @media (min-width:768px){
+            width: 15.1px;
+            height: 14px;
+        }
     
-        @media (min-width:1200px) {
-                width: 16.4px;
-                height: 14.3px;
-            }
+        @media (min-width:1200px){
+            width: 16.4px;
+            height: 14.3px;
+        }
     }
 }

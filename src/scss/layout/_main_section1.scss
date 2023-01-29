@@ -11,8 +11,8 @@
 
     &_small{
         font-family: $foont-main-text;
-        font-size: 14px;
-        line-height: 30px;
+        font-size: 0.9rem;
+        line-height: 2.14;
         color: $background-orange;
         margin-top: 20px;
 
@@ -23,7 +23,7 @@
 
     &_title1{
         font-family: $font-main-title;
-        font-size: 24px;
+        font-size: 1.5rem;
         color: $color-text-black;
         font-weight: bold;
         line-height: 1.25;
@@ -37,33 +37,33 @@
 
     &_text1{
         font-family: $foont-main-text;
-        font-size: 18px;
+        font-size: 1.13rem;
         line-height: 1.67;
         color: $background-color-footer;
         padding-bottom: 10px;
 
-        @media (min-width:768px){
+            @media (min-width:768px){
                 font-size: 20px;
             }
     }
 
     &_botton{
-        width: 137.1px;
-        height: 45px;
         font-family: $foont-main-text;
-        font-size: 20px;
+        font-size: 1.25rem;
         font-weight: bold;
         line-height: 2.25;
+        width: 137.1px;
+        height: 45px;
         border: solid 2px $background-orange;
-        display: flex;
-        justify-content: center;
-        align-items: center;
         color: $background-orange;
         background-color: $background-white;
         margin-bottom: 35px;
         margin-top: 20px;
         border-radius: 22.5px;
-
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
         &:hover{
             transform: scale(1.1);
         }

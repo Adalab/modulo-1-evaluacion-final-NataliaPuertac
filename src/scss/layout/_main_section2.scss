@@ -6,20 +6,20 @@
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     gap: 40px;
 
-        @media (min-width: 768px) {
+        @media (min-width: 768px){
            grid-template-columns: 1fr 1fr 1fr;
            grid-template-rows: 1fr 1fr 1fr;
            padding: 49px 29px;
         }
 
-        @media (min-width:1200px) {
+        @media (min-width:1200px){
             padding: 48px 81.2px 66px 80px;
         }
 
     &_title{
         font-family: $font-main-title;
-        font-size: 20px;
-        line-height: 30px;
+        font-size: 1.25rem;
+        line-height: 1.5;
         color:$color-text-black;
         display: flex;
         text-align: center;
@@ -36,26 +36,26 @@
 
     &_title2{
         font-family: $font-main-title;
-        font-size: 18px;
-        line-height: 30px;
+        font-size: 1.13rem;
+        line-height: 1.67;
         font-weight: bold;
         text-align: center;
 
-            @media (min-width: 768px) {
+            @media (min-width: 768px){
                 font-size: 24px;
             }
     }
 
     &_text{
         font-family: $foont-main-text;
-        font-size: 18px;
-        line-height: 30px;
+        font-size: 1.13rem;
+        line-height:1.67;
         text-align: center;
 
-            @media (min-width: 768px) {
-                    font-size: 20px;
+            @media (min-width: 768px){
+                    font-size: 1.56rem;
                     padding-top: 15px;
-                }
+            }
     }
 
     &_div{
@@ -64,14 +64,14 @@
         justify-content: center;
         align-items: center;
 
-        @media (min-width: 768px) {
+        @media (min-width: 768px){
             grid-column: 3 span;
         }
     }
 
     &_main_botton2{
         font-family: $foont-main-text;
-        font-size: 20px;
+        font-size: 1.25rem;
         color: $background-white;
         background-color: $background-orange;
         display: flex;

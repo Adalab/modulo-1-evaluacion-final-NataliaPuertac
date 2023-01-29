@@ -14,30 +14,30 @@
         text-align: center;
         text-transform: uppercase;
         font-weight: bold;
-        font-size: 30px;
+        font-size: 1.9rem;
         line-height: 1.67;
-        
-            @media (min-width:768px) {
+
+            @media (min-width:768px){
                 font-size: 75px;
                 line-height: 1.33;
             }
-        
-            @media (min-width:1200px) {
-                font-size: 100px;
+
+            @media (min-width:1200px){
+                font-size: 6.25rem;
             }
-    }
+        }
 
     &_paragraph{
         font-family: $foont-main-text;
         color: $background-white;
-        font-size: 16px;
+        font-size: 1rem;
         width: 243.3px;
         height: 16px;
         padding: 0 0 4.8px;
         text-align: center;
 
-            @media (min-width:768px) {
-                font-size: 24px;
+            @media (min-width:768px){
+                font-size: 1.5rem;
                 line-height: 1.17;
                 width: 340.1px;
                 height: 28px;
@@ -49,13 +49,13 @@
         height: 36px;
         margin-top: 45px;
         margin-bottom: 38px;
-    
-            @media (min-width:768px) {
+
+            @media (min-width:768px){
                  width: 42.5px;
                  height: 45px;
             }
-    
-            @media (min-width:1200px) {
+
+            @media (min-width:1200px){
                  width: 46.2px;
                  height: 45.9px;
             }
@@ -65,18 +65,17 @@
         background-color: $background-white;
         width: 16.8px;
         height: 9.3px;
-        transform: rotate(-0.23deg);
         padding: 14.3px 10.1px 12.2px 11px;
         border-radius: 50%;
     
-             @media (min-width:768px) {
+            @media (min-width:768px){
                  width: 18.9px;
                  height: 11.7px;
-             }
+            }
     
-             @media (min-width:1200px) {
+            @media (min-width:1200px){
                  width: 20.5px;
                  height: 11.9px;
-             }
-         }
+            }
+    }
 }

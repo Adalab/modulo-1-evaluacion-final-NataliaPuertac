@@ -38,7 +38,7 @@
     &_text1{
         font-family: $foont-main-text;
         font-size: 18px;
-        line-height: 30px;
+        line-height: 1.67;
         color: $background-color-footer;
         padding-bottom: 10px;
 
@@ -63,5 +63,9 @@
         margin-bottom: 35px;
         margin-top: 20px;
         border-radius: 22.5px;
+
+        &:hover{
+            transform: scale(1.1);
+        }
     }
 }

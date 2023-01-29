@@ -81,5 +81,9 @@
         width: 184px;
         height: 45px;
         border: none;
+
+        &:hover{
+            transform: scale(1.1);
+        }
     }
 }

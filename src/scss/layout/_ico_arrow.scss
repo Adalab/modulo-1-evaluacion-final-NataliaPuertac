@@ -1,22 +1,22 @@
-.ico{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
+.ico {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
 
-    &_scroll{
-        position: absolute;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color: $white;
-        width: 45px;
-        height: 45px;
-        border-radius: 50%;
-    }
-    
-    &_arrow{
-        width: 20.6px;
-        height: 24px;
-    }
+  &_scroll {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $white;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+  }
+
+  &_arrow {
+    width: 20.6px;
+    height: 24px;
+  }
 }

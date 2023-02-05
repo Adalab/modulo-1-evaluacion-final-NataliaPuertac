@@ -1,95 +1,95 @@
-.section2{
-    background-color: $background-color-main;
-    padding: 30px 15px 50px 15px;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-    gap: 40px;
+.section2 {
+  background-color: $background-color-main;
+  padding: 30px 15px 50px 15px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  gap: 40px;
 
-        @media (min-width: 768px){
-           grid-template-columns: 1fr 1fr 1fr;
-           grid-template-rows: 1fr 1fr 1fr;
-           padding: 49px 29px;
-           gap: 20px;
-        }
+  @media (min-width: 768px) {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    padding: 49px 29px;
+    gap: 20px;
+  }
 
-        @media (min-width:1200px){
-            padding: 48px 81.2px 66px 80px;
-        }
+  @media (min-width: 1200px) {
+    padding: 48px 81.2px 66px 80px;
+  }
 
-    &_title{
-        font-family: $font-main-title;
-        font-size: 1.25rem;
-        line-height: 1.5;
-        color:$color-text-black;
-        display: flex;
-        text-align: center;
-        justify-content: center;
-        align-items: center;
-        font-weight: bold;
+  &_title {
+    font-family: $font-main-title;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    color: $color-text-black;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
 
-            @media (min-width: 768px){
-                font-size: 1.75rem;
-                line-height: 1.61;
-                grid-column: 3 span;
-            }
+    @media (min-width: 768px) {
+      font-size: 1.75rem;
+      line-height: 1.61;
+      grid-column: 3 span;
     }
+  }
 
-    &_title2{
-        font-family: $font-main-title;
-        font-size: 1.13rem;
-        line-height: 1.67;
-        font-weight: bold;
-        text-align: center;
+  &_title2 {
+    font-family: $font-main-title;
+    font-size: 1.13rem;
+    line-height: 1.67;
+    font-weight: bold;
+    text-align: center;
 
-            @media (min-width: 768px){
-                font-size: 24px;
-            }
+    @media (min-width: 768px) {
+      font-size: 24px;
     }
+  }
 
-    &_text{
-        font-family: $foont-main-text;
-        font-size: 1.13rem;
-        line-height:1.67;
-        text-align: center;
+  &_text {
+    font-family: $foont-main-text;
+    font-size: 1.13rem;
+    line-height: 1.67;
+    text-align: center;
 
-            @media (min-width: 768px){
-                    font-size: 1.56rem;
-                    padding-top: 15px;
-            }
+    @media (min-width: 768px) {
+      font-size: 1.56rem;
+      padding-top: 15px;
     }
+  }
 
-    &_div{
-        display: flex;
-        text-align: center;
-        justify-content: center;
-        align-items: center;
+  &_div {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 
-        @media (min-width: 768px){
-            grid-column: 3 span;
-        }
+    @media (min-width: 768px) {
+      grid-column: 3 span;
     }
+  }
 
-    &_main_botton2{
-        font-family: $foont-main-text;
-        font-size: 1.25rem;
-        color: $white;
-        background-color: $orange;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        border-radius: 22.5px;
-        width: 184px;
-        height: 45px;
-        border: none;
-
-        &:hover{
-            transform: scale(1.1);
-            cursor: pointer;
-            border: solid 2px $orange;
-            color: $orange;
-            background-color: $white;
-            font-weight: bold;
-        }
+  &_main_botton2 {
+    font-family: $foont-main-text;
+    font-size: 1.25rem;
+    color: $white;
+    background-color: $orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 22.5px;
+    width: 184px;
+    height: 45px;
+    border: none;
+    transition: all, 1s;
+    &:hover {
+      transform: scale(1.1);
+      cursor: pointer;
+      border: solid 2px $orange;
+      color: $orange;
+      background-color: $white;
+      font-weight: bold;
     }
+  }
 }

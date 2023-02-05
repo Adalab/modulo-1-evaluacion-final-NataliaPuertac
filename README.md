@@ -24,11 +24,11 @@ En concreto definieron como teníamos que hacer ciertas secciones:
 
 La página web consta de:
 
-1. Un header compuesto por un botón de hamburguesa que queda fijo en la parte izquierda de la página al hacer scroll.
+1. Un header, compuesto por un botón de hamburguesa que queda fijo en la parte izquierda de la página al hacer scroll.
 
 2. Un hero con una imagen de fondo que ocupa tanto como el alto de la ventana del navegador.
 
-3. Un main formado por dos secciones diferenciadas:
+3. Un main, formado por dos secciones diferenciadas:
 
 - La primera, compuesta por un texto y un botón que enlaza con la web de Adalab.
 - La segunda, maquetada con CSS Grid.

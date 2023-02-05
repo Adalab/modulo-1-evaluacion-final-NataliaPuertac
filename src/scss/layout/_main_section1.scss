@@ -1,75 +1,75 @@
-.section1{
-    padding: 34px 12px 2px 13px;
+.section1 {
+  padding: 34px 12px 2px 13px;
 
-        @media (min-width:768px){
-            padding: 37px 39px 41px 37px;
-        }
+  @media (min-width: 768px) {
+    padding: 37px 39px 41px 37px;
+  }
 
-        @media (min-width:1200px){
-            padding: 58px 136px 57px 275px;
-        }
+  @media (min-width: 1200px) {
+    padding: 58px 136px 57px 275px;
+  }
 
-    &_small{
-        font-family: $foont-main-text;
-        font-size: 0.9rem;
-        line-height: 2.14;
-        color: $orange;
-        margin-top: 20px;
+  &_small {
+    font-family: $foont-main-text;
+    font-size: 0.9rem;
+    line-height: 2.14;
+    color: $orange;
+    margin-top: 20px;
 
-            @media (min-width:768px){
-                font-size: 16px;
-            }
+    @media (min-width: 768px) {
+      font-size: 16px;
     }
+  }
 
-    &_title1{
-        font-family: $font-main-title;
-        font-size: 1.5rem;
-        color: $color-text-black;
-        font-weight: bold;
-        line-height: 1.25;
-        padding-bottom: 10px;
+  &_title1 {
+    font-family: $font-main-title;
+    font-size: 1.5rem;
+    color: $color-text-black;
+    font-weight: bold;
+    line-height: 1.25;
+    padding-bottom: 10px;
 
-            @media (min-width:768px){
-                font-size: 32px;
-                line-height: 45px;
-            }
+    @media (min-width: 768px) {
+      font-size: 32px;
+      line-height: 45px;
     }
+  }
 
-    &_text1{
-        font-family: $foont-main-text;
-        font-size: 1.13rem;
-        line-height: 1.67;
-        color: $background-color-footer;
-        padding-bottom: 10px;
+  &_text1 {
+    font-family: $foont-main-text;
+    font-size: 1.13rem;
+    line-height: 1.67;
+    color: $background-color-footer;
+    padding-bottom: 10px;
 
-            @media (min-width:768px){
-                font-size: 20px;
-            }
+    @media (min-width: 768px) {
+      font-size: 20px;
     }
+  }
 
-    &_botton{
-        font-family: $foont-main-text;
-        font-size: 1.25rem;
-        font-weight: bold;
-        line-height: 2.25;
-        width: 137.1px;
-        height: 45px;
-        border: solid 2px $orange;
-        color: $orange;
-        background-color: $white;
-        margin-bottom: 35px;
-        margin-top: 20px;
-        border-radius: 22.5px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    
-        &:hover{
-            transform: scale(1.1);
-            cursor: pointer;
-            color: $white;
-            background-color: $orange;
-            border: none;
-        }
+  &_botton {
+    font-family: $foont-main-text;
+    font-size: 1.25rem;
+    font-weight: bold;
+    line-height: 2.25;
+    width: 137.1px;
+    height: 45px;
+    border: solid 2px $orange;
+    color: $orange;
+    background-color: $white;
+    margin-bottom: 35px;
+    margin-top: 20px;
+    border-radius: 22.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all, 1s;
+    &:hover {
+      transform: scale(1.1);
+      cursor: pointer;
+      color: $white;
+      background-color: $orange;
+      border: none;
     }
+  }
 }

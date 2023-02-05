@@ -27,6 +27,16 @@
     justify-content: center;
     align-items: center;
     font-weight: bold;
+    animation-duration: 6s;
+    animation-name: slideside;
+    animation-iteration-count: infinite;
+
+    @keyframes slideside {
+      from {
+        margin-left: 100%;
+        width: 200%;
+      }
+    }
 
     @media (min-width: 768px) {
       font-size: 1.75rem;
